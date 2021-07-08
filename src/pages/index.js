@@ -3,9 +3,9 @@ import "../styles/global.css";
 
 const IndexPage = () => {
   return (
-    <main className="h-screen px-8 flex flex-col place-content-center md:items-center text-white bg-black">
+    <main className="h-screen px-7 flex flex-col place-content-center md:items-center text-white bg-black">
       <h1 className="text-8xl md:text-10xl font-medium">Yosh _</h1>
-      <ul className="text-base flex flex-row mt-8 space-x-6">
+      <ul className="text-base flex flex-row mt-8 space-x-5 md:space-x-6">
         <li className="transition duration-300 ease-in-out hover:text-blue-300">
           <a href="https://twitter.com/yungyoshh" target="_blank">
             [ tweets ]
