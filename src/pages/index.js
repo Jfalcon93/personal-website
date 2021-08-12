@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import "../styles/global.css";
 import Meta from "../components/Meta";
 
@@ -6,7 +7,14 @@ const IndexPage = () => {
   return (
     <main className="h-screen px-7 flex flex-col place-content-center md:items-center text-white bg-black">
       <Meta />
-      <h1 className="text-8xl md:text-10xl font-medium">Yosh _</h1>
+      <h1 className="text-8xl md:text-10xl font-medium">
+        <Link
+          className="transition duration-300 ease-in-out hover:text-blue-300"
+          to="/resume"
+        >
+          Yosh _
+        </Link>
+      </h1>
       <ul className="text-base flex flex-row mt-8 space-x-5 md:space-x-6">
         <li className="transition duration-300 ease-in-out hover:text-blue-300">
           <a
